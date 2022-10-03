@@ -56,6 +56,12 @@
             <param name="android-package" value="com.praves.cordova.android.idfa.AndroidIDFA" />
         </feature>
     </config-file>
+  
+    <platform name="android">
+      <config-file target="AndroidManifest.xml" parent="/manifest">
+          <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+      </config-file>
+    </platform>
     
     <!-- <framework src="com.google.android.gms:play-services-ads:+" /> -->
 
