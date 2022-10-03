@@ -62,6 +62,7 @@
 </platform> 
 
 <!-- ios-specific elements -->
+<!--
 <platform name="ios">
 
     <config-file target="config.xml" parent="/*">
@@ -76,5 +77,6 @@
   <source-file src="src/ios/AndroidIDFA.m" />
 
 </platform>
+-->
 
 </plugin>
